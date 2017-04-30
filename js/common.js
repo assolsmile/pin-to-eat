@@ -111,5 +111,4 @@ this.options)});b._afterUpdate&&b._afterUpdate(a,b._groups)};b._update=function(
 // =============================================
 $('.equal-heights .col-md-4').matchHeight();
 
-
 })(jQuery); // End of use strict

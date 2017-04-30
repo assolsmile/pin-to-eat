@@ -757,9 +757,22 @@ input.error, textarea.error {
     margin-right: 20px;
     margin-top: -20px;
     text-transform: uppercase;
-
 }
+
+.btn-check:focus { outline:0 !important; }
 
 .star-gray {
     color: #9d9d9d;
+}
+
+.modal-title {
+    color: #f05f40;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.modal-body p {
+    text-align: center;
 }
