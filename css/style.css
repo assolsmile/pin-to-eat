@@ -468,8 +468,8 @@ body {
 }
 
 .teambox {
-
-    background-color: #e7e7e7;
+    margin: 0 2px 1px 0;
+    background-color: rgba(255,228,181, 0.4);
 }
 
 .teambox h2 {
