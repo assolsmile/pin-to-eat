@@ -111,4 +111,76 @@ this.options)});b._afterUpdate&&b._afterUpdate(a,b._groups)};b._update=function(
 // =============================================
 $('.equal-heights .col-md-4').matchHeight();
 
+
+// =============================================
+// GA Events
+// =============================================
+$('.navbar-nav li a').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Navbar',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+});
+
+$('.carousel-caption a').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'All Offers',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+
+});
+
+$('.carousel-indicators li').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Carousel',
+        eventAction: 'click'
+    });
+
+});
+
+$('.team-thumb a').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Offer image',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+});
+
+$('.offer-title').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Offer title',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+
+});
+
+$('.teambox button').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Offer button',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+
+});
+
+$('.btn-more-div button').click(function () {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'More button',
+        eventAction: 'click',
+        eventLabel: this.href
+    });
+
+});
+
+
 })(jQuery); // End of use strict
